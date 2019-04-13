@@ -1,0 +1,37 @@
+                                                 ITEMS AND SPECIFICATION
+
+1-arduino uno
+2-esp8266 wifi module
+3-lpg gas sensor
+4-servo motor
+5-buzzer
+6-9 volt battery
+7-required amplifiers and comparators
+
+
+                                          #  BILL OF ITEMS USED
+
+
+
+
+
+                                    LPG SMART LEAKAGE DETECTOR AND CONTROLLER
+
+
+lpg smart leakage detector and  controller is an iot based project which senses the leakage of lpg at home with the help of lpg sensor and sends a ntification to the user’s android phone via internet using esp8266 wifi module.the user gets the popup notification in an android app LPG SAMRT CONTROLLER when running in background and with the help of app user can on or off the lpg cylinder regulator using knob on or off or can on or off the alarm using the app.the action performed by the arduino is also shown in the app as RETURN ACTION STATUS.
+The app also shows the leakage and action performed data in DATA VISUALIZATION screen in the android app.it keeps record of every action along with the time .the data is also in the website 
+API.VIRTUALWORLD.TODAY
+this is very useful in controlling the lpg leakage to avoid any danger and also to control its wastage.
+
+
+
+
+
+                                                     #ARDUINO CODE
+
+arduino generally sends the data to the website whenever it reads data from the sensor and the androin app reads the data from the website continuously and any action performed by the user using the app the data gets stored in the website and the arduino reads the data from the website and
+perform acordingly  
+
+
+                                                  #ANDROID APP 
+android app very necessary for user to control the activity with distant via internet connection from anywhere in the world and it is quite easy to control it using the android app
